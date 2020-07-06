@@ -1,0 +1,12 @@
+modules:
+  'jira:issuePanel':
+    - key: sentiment-hello-world-panel
+      function: main
+      title: Sentiment
+      description: Undertstand the sentiment of tickets so that you can better handle the tickets based on mood of ticket writers.
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/a3df52a0-0a7d-48fb-a687-d5147973aeb4'
+  name: Sentiment
